@@ -1,7 +1,7 @@
 {
     "files.autoSave": "onFocusChange",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Visual Studio Light",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -114,4 +114,19 @@
         ]
     },
     "editor.fontFamily": "Ubuntu Mono",
+    "workbench.colorCustomizations": {
+			"editorLineNumber.foreground": "#666666",
+			"editorLineNumber.activeForeground": "#999999"
+		},
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 0,
+    "folding": {
+        "*": {
+            "begin": "{",
+            "end": "}"
+        },
+    }
 }
