@@ -2,6 +2,7 @@
     "files.autoSave": "onFocusChange",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Visual Studio Light",
+    "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
