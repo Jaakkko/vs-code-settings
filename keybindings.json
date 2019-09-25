@@ -9,7 +9,19 @@
         "command": "workbench.action.previousEditor"
     },
     {
-        "key": "ctrl+shift+numpad_subtract",
+        "key": "alt+shift+l",
+        "command": "workbench.action.moveEditorRightInGroup"
+    },
+    {
+        "key": "alt+shift+h",
+        "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "ctrl+shift+z",
         "command": "editor.foldAll"
     },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.unfoldAll"
+    }
 ]
