@@ -1,8 +1,8 @@
 {
+    "zenMode.hideLineNumbers": false,
     "files.autoSave": "onFocusChange",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Visual Studio Light",
-    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -111,23 +111,161 @@
                 "settings": {
                     "fontStyle": ""
                 }
-            }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment.js",
+                    "punctuation.definition.comment.ts",
+                    "punctuation.definition.comment.json"
+                ],
+                "settings": {
+                    "foreground": "#818181",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.js",
+                    "entity.name.function.ts",
+                    "entity.name.type.class",
+                    "entity.name.type",
+                    "support.class",
+                    "variable.object.property",
+                    "variable",
+                    "variable.parameter",
+                    "support.function",
+                ],
+                "settings": {
+                    "foreground": "#ececec",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "storage.type",
+                    "meta.var.expr",
+                    "keyword.control",
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#11d867",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "string",
+                    "punctuation.definition.string.begin",
+                    "punctuation.definition.string.end",
+                    "punctuation.definition.string.template.begin",
+                    "punctuation.definition.string.template.end",
+                    "string.quoted.double.json.comments"
+                ],
+                "settings": {
+                    "foreground": "#FFB800",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                    "foreground": "#e46748",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.assignment",
+                    "keyword.operator.relational",
+                    "keyword.operator.increment",
+                    "keyword.operator.rest",
+                    "keyword.operator.type.annotation.ts",
+                    "variable.language.this.js",
+                    "variable.language.this.ts",
+                    "punctuation.accessor",
+                    "punctuation.definition.parameters.end",
+                    "punctuation.definition.parameters.begin",
+                    "punctuation.definition.block",
+                    "punctuation.terminator.statement",
+                    "punctuation.definition.template-expression.begin",
+                    "punctuation.definition.template-expression.end",
+                    "storage.type.function.arrow",
+                    "meta",
+                    "punctuation.separator.array.json.comments",
+                    "punctuation.definition.dictionary.begin.json",
+                    "punctuation.definition.dictionary.end.json",
+                    "punctuation.support.type.property-name.begin.json",
+                    "punctuation.support.type.property-name.end.json",
+                    "punctuation.separator.dictionary.key-value.json",
+                    "punctuation.separator.dictionary.pair",
+                    "support.type.property-name.json.comments",
+                    "punctuation.definition.array.begin.json",
+                    "punctuation.definition.array.end.json",
+                    "meta.structure.dictionary.json support.type.property-name.json",
+                    "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+                    "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+                ],
+                "settings": {
+                    "foreground": "#8f9eb4",
+                    "fontStyle": ""
+                }
+            },
         ]
     },
     "editor.fontFamily": "Ubuntu Mono",
-    "workbench.colorCustomizations": {
-			"editorLineNumber.foreground": "#666666",
-			"editorLineNumber.activeForeground": "#999999"
-		},
     "editor.fontSize": 16,
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "workbench.colorCustomizations": {
+            "editorLineNumber.foreground": "#555555",
+            "editor.background": "#000",
+
+            "activityBar.foreground": "#fff",
+            "activityBar.activeBorder": "#0000",
+
+            "sideBar.background": "#000",
+            "sideBar.foreground": "#888",
+
+            "list.inactiveSelectionForeground": "#7caeff",
+            "tab.activeBorder": "#4d6ea3",
+
+            "tab.inactiveForeground": "#999",
+            "tab.activeForeground": "#efefef",
+            "tab.unfocusedActiveForeground": "#999",
+            "tab.unfocusedInactiveForeground": "#999",
+            "tab.unfocusedActiveBorder": "#00000000",
+
+            "editorSuggestWidget.selectedBackground": "#1e2b3f",
+            "editorSuggestWidget.highlightForeground": "#6a96dd",
+
+            "sideBar.border": "#101c2e",
+            "statusBar.background": "#101c2e",
+            "activityBar.background": "#101c2e",
+            "tab.activeBackground": "#101c2e",
+            "tab.inactiveBackground": "#101c2e",
+            "tab.border": "#101c2e",
+            "editorGroupHeader.tabsBackground": "#101c2e",
+
+            "editorPane.background": "#000000",
+            "statusBar.foreground": "#eee",
+
+            "breadcrumb.foreground": "#727272",
+
+            "editorCursor.foreground": "#ddd",
+    },
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 0.5,
     "folding": {
         "*": {
-            "begin": "{",
-            "end": "}"
+            "beginRegex": "{$",
+            "endRegex": "^}"
         },
-    }
+    },
+    "git.enableSmartCommit": true,
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }
