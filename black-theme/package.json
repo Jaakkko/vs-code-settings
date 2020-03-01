@@ -1,0 +1,21 @@
+{
+    "name": "black-theme",
+    "displayName": "Black Theme",
+    "description": "Theme with black background",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Black Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Black Theme-color-theme.json"
+            }
+        ]
+    }
+}
