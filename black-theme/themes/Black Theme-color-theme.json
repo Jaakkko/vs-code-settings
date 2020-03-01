@@ -95,7 +95,7 @@
 		"inputValidation.infoBorder": "#82aaff50",
 		"inputValidation.warningBorder": "#ffcb6b50",
 		"list.activeSelectionBackground": "#090b10",
-		"list.activeSelectionForeground": "#80cbc4",
+		"list.activeSelectionForeground": "#7caeff",
 		"list.dropBackground": "#f0717880",
 		"list.focusBackground": "#a6accd20",
 		"list.focusForeground": "#a6accd",
@@ -951,7 +951,10 @@
 				"variable.object.property",
 				"variable",
 				"variable.parameter",
-				"support.function"
+				"support.function",
+				"meta.object-literal.key",
+				"support.variable",
+				"entity.other.inherited-class.js"
 			],
 			"settings": {
 				"foreground": "#ECECEC",
@@ -963,7 +966,9 @@
 				"storage.type",
 				"meta.var.expr",
 				"keyword.control",
-				"keyword.operator"
+				"keyword.operator",
+				"storage.modifier.async",
+				"variable.language.super.js"
 			],
 			"settings": {
 				"foreground": "#11D867",
@@ -986,7 +991,9 @@
 		},
 		{
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				"constant.language.boolean",
+				"constant.language.null"
 			],
 			"settings": {
 				"foreground": "#E46748",
@@ -995,10 +1002,17 @@
 		},
 		{
 			"scope": [
+				"keyword.other.js",
+				"keyword.operator.bitwise",
+				"keyword.operator.ternary",
+				"keyword.operator.arithmetic",
 				"keyword.operator.assignment",
 				"keyword.operator.relational",
 				"keyword.operator.increment",
+				"keyword.operator.decrement",
 				"keyword.operator.rest",
+				"keyword.operator.comparison",
+				"keyword.operator.logical",
 				"keyword.operator.type.annotation.ts",
 				"variable.language.this.js",
 				"variable.language.this.ts",
@@ -1009,6 +1023,10 @@
 				"punctuation.terminator.statement",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end",
+				"punctuation.definition.binding-pattern.object",
+				"punctuation.definition.binding-pattern.array",
+				"punctuation.separator.key-value",
+				"punctuation.separator.comma",
 				"storage.type.function.arrow",
 				"meta",
 				"punctuation.separator.array.json.comments",

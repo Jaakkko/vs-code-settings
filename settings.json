@@ -135,6 +135,9 @@
                     "variable",
                     "variable.parameter",
                     "support.function",
+                    "meta.object-literal.key",
+                    "support.variable",
+                    "entity.other.inherited-class.js"
                 ],
                 "settings": {
                     "foreground": "#ececec",
@@ -146,7 +149,9 @@
                     "storage.type",
                     "meta.var.expr",
                     "keyword.control",
-                    "keyword.operator"
+                    "keyword.operator",
+                    "storage.modifier.async",
+                    "variable.language.super.js"
                 ],
                 "settings": {
                     "foreground": "#11d867",
@@ -169,7 +174,9 @@
             },
             {
                 "scope": [
-                    "constant.numeric"
+                    "constant.numeric",
+                    "constant.language.boolean",
+                    "constant.language.null",
                 ],
                 "settings": {
                     "foreground": "#e46748",
@@ -178,10 +185,17 @@
             },
             {
                 "scope": [
+                    "keyword.other.js",
+                    "keyword.operator.bitwise",
+                    "keyword.operator.ternary",
+                    "keyword.operator.arithmetic",
                     "keyword.operator.assignment",
                     "keyword.operator.relational",
                     "keyword.operator.increment",
+                    "keyword.operator.decrement",
                     "keyword.operator.rest",
+                    "keyword.operator.comparison",
+                    "keyword.operator.logical",
                     "keyword.operator.type.annotation.ts",
                     "variable.language.this.js",
                     "variable.language.this.ts",
@@ -192,6 +206,10 @@
                     "punctuation.terminator.statement",
                     "punctuation.definition.template-expression.begin",
                     "punctuation.definition.template-expression.end",
+                    "punctuation.definition.binding-pattern.object",
+                    "punctuation.definition.binding-pattern.array",
+                    "punctuation.separator.key-value",
+                    "punctuation.separator.comma",
                     "storage.type.function.arrow",
                     "meta",
                     "punctuation.separator.array.json.comments",
@@ -206,7 +224,7 @@
                     "punctuation.definition.array.end.json",
                     "meta.structure.dictionary.json support.type.property-name.json",
                     "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-                    "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+                    "meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
                 ],
                 "settings": {
                     "foreground": "#8f9eb4",
@@ -232,6 +250,7 @@
             "sideBar.foreground": "#888",
 
             "list.inactiveSelectionForeground": "#7caeff",
+            "list.activeSelectionForeground": "#7caeff",
             "tab.activeBorder": "#4d6ea3",
 
             "tab.inactiveForeground": "#999",
