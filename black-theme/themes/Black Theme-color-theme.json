@@ -7,7 +7,7 @@
 		"activityBar.border": "#00000060",
 		"activityBar.dropBackground": "#f0717880",
 		"activityBar.foreground": "#ffffff",
-		"activityBarBadge.background": "#80cbc4",
+		"activityBarBadge.background": "#7caeff",
 		"activityBarBadge.foreground": "#000000",
 		"badge.background": "#00000030",
 		"badge.foreground": "#464b5d",
@@ -136,12 +136,12 @@
 		"peekViewTitleDescription.foreground": "#a6accd60",
 		"pickerGroup.border": "#ffffff1a",
 		"pickerGroup.foreground": "#80cbc4",
-		"progressBar.background": "#80cbc4",
+		"progressBar.background": "#7caeff",
 		"scrollbar.shadow": "#00000030",
 		"scrollbarSlider.activeBackground": "#1c3b66",
 		"scrollbarSlider.background": "#1a293f",
 		"scrollbarSlider.hoverBackground": "#1b304e",
-		"selection.background": "#00000060",
+		"selection.background": "#7caeff",
 		"settings.checkboxBackground": "#090b10",
 		"settings.checkboxForeground": "#a6accd",
 		"settings.dropdownBackground": "#090b10",
@@ -199,8 +199,8 @@
 		"terminal.ansiYellow": "#ffcb6b",
 		"terminalCursor.background": "#000000",
 		"terminalCursor.foreground": "#ffcb6b",
-		"textLink.activeForeground": "#a6accd",
-		"textLink.foreground": "#80cbc4",
+		"textLink.activeForeground": "#577ab3",
+		"textLink.foreground": "#7caeff",
 		"titleBar.activeBackground": "#090b10",
 		"titleBar.activeForeground": "#a6accd",
 		"titleBar.border": "#00000060",
@@ -267,7 +267,7 @@
 		//"editorUnnecessaryCode.opacity": "#000000aa",
 		//"editorWidget.foreground": "#a6accd",
 		//"errorForeground": "#f48771",
-		//"extensionBadge.remoteBackground": "#80cbc4",
+		//"extensionBadge.remoteBackground": "#7caeff",
 		//"gitDecoration.addedResourceForeground": "#81b88b",
 		//"gitDecoration.submoduleResourceForeground": "#8db9e2",
 		//"icon.foreground": "#c5c5c5",
@@ -979,6 +979,11 @@
 		{
 			"scope": [
 				"string",
+				"keyword.control.anchor.regexp",
+				"keyword.operator.quantifier.regexp",
+				"punctuation.definition.group.regexp",
+				"constant.character.escape.backslash.regexp",
+				"constant.other.character-class.regexp",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"punctuation.definition.string.template.begin",
@@ -993,12 +998,24 @@
 		{
 			"scope": [
 				"constant.numeric",
+				"constant.language",
 				"constant.language.boolean",
 				"constant.language.json",
 				"constant.language.null"
 			],
 			"settings": {
 				"foreground": "#E46748",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"support.type",
+				"entity.other.inherited-class",
+				"entity.name.type"
+			],
+			"settings": {
+				"foreground": "#B68ED1",
 				"fontStyle": ""
 			}
 		},
@@ -1013,9 +1030,12 @@
 				"keyword.operator.increment",
 				"keyword.operator.decrement",
 				"keyword.operator.rest",
+				"keyword.operator.spread",
 				"keyword.operator.comparison",
 				"keyword.operator.logical",
 				"keyword.operator.type.annotation.ts",
+				"keyword.operator.optional.ts",
+				"keyword.operator.type.ts",
 				"variable.language.this.js",
 				"variable.language.this.ts",
 				"punctuation.accessor",
@@ -1031,6 +1051,8 @@
 				"punctuation.separator.comma",
 				"storage.type.function.arrow",
 				"meta",
+				"punctuation.separator.parameter",
+				"punctuation.definition.section.case-statement",
 				"punctuation.separator.array.json.comments",
 				"punctuation.definition.dictionary.begin.json",
 				"punctuation.definition.dictionary.end.json",
@@ -1043,7 +1065,8 @@
 				"punctuation.definition.array.end.json",
 				"meta.structure.dictionary.json support.type.property-name.json",
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
-				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+				"punctuation.definition.typeparameters"
 			],
 			"settings": {
 				"foreground": "#8F9EB4",
