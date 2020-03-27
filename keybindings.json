@@ -18,10 +18,18 @@
     },
     {
         "key": "ctrl+shift+z",
-        "command": "editor.foldAll"
+        "command": "editor.foldLevel1"
     },
     {
         "key": "ctrl+shift+a",
         "command": "editor.unfoldAll"
+    },
+    {
+        "key": "ctrl+alt+shift+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.toggleSidebarVisibility"
     }
 ]
