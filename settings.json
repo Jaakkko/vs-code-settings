@@ -9,7 +9,7 @@
     "editor.lineNumbers": "relative",
     "editor.unfoldOnClickAfterEndOfLine": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 0.5,
     "folding": {
         "*": {
             "beginRegex": "{$",
@@ -22,5 +22,5 @@
     "workbench.sideBar.location": "right",
     "editor.fontSize": 16,
     "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Forest",
+    "workbench.colorTheme": "Ultra Dark Theme",
 }
