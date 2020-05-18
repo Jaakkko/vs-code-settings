@@ -23,4 +23,5 @@
     "editor.fontSize": 16,
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Ultra Dark Theme",
+    "git.autofetch": true,
 }
