@@ -1,5 +1,5 @@
 #!/bin/bash
-cp ~/.config/Code\ -\ OSS/User/{keybindings.json,settings.json} .
+cp ~/.config/Code/User/{keybindings.json,settings.json} .
 
 rm -r black-theme
-cp -r ~/.vscode-oss/extensions/black-theme .
+cp -r ~/.vscode/extensions/black-theme .
