@@ -1,27 +1,15 @@
 {
-    "zenMode.hideLineNumbers": false,
-    "files.autoSave": "onFocusChange",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "'JetBrains Mono', 'Font Awesome 5 Free Solid'",
     "editor.tabSize": 4,
     "editor.detectIndentation": false,
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
     "editor.unfoldOnClickAfterEndOfLine": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0,
-    "folding": {
-        "*": {
-            "beginRegex": "{$",
-            "endRegex": "^}"
-        },
-    },
-    "git.enableSmartCommit": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "C_Cpp.enhancedColorization": "Disabled",
-    "workbench.sideBar.location": "right",
     "editor.fontSize": 16,
-    "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Ultra Dark Theme",
-    "git.autofetch": true,
+    "files.autoSave": "onFocusChange",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Black",
+    "window.menuBarVisibility": "hidden",
+    "zenMode.hideLineNumbers": false,
 }
